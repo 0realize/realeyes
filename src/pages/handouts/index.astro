@@ -4,12 +4,12 @@ import Container from '@/components/Container.astro'
 import Layout from '@/layouts/Layout.astro'
 
 const handouts = [
-  { title: "Handout 1", description: "ayayya", href: "https://knzhou.github.io/writing/Advice.pdf" },
-  { title: "Handout 2", description: "yessir", href: "https://knzhou.github.io/writing/Advice.pdf" },
+  { title: "Kevin Zhou's Advice", description: "all hail knzhou", href: "https://knzhou.github.io/writing/Advice.pdf" },
+  { title: "Kevin Zhou advice but for cool people", description: "yessir", href: "https://knzhou.github.io/writing/AdviceAfter.pdf" },
 ]
 ---
 
-<Layout title="Handouts" description="handouts nigga">
+<Layout title="Handouts" description="My handouts">
   <Container class="flex flex-col gap-y-6">
     <Breadcrumbs items={[{ label: 'Handouts', icon: 'lucide:book-open' }]} />
     <ul class="grid grid-cols-1 gap-4 sm:grid-cols-2">
