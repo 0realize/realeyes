@@ -1,25 +1,22 @@
 export type Site = {
-  TITLE: string
-  DESCRIPTION: string
-  EMAIL: string
-  NUM_POSTS_ON_HOMEPAGE: number
-  POSTS_PER_PAGE: number
-  SITEURL: string
+  TITLE: string;
+  DESCRIPTION: string;
+  NUM_POSTS_ON_HOMEPAGE: number;
+  POSTS_PER_PAGE: number;
+  SITEURL: string;
 }
 
 export type Link = {
-  href: string
-  label: string
+  href: string;
+  label: string;
 }
 
 export const SITE: Site = {
-  TITLE: 'astro-erudite',
-  DESCRIPTION:
-    'astro-erudite is a opinionated, no-frills blogging template—built with Astro, Tailwind, and shadcn/ui.',
-  EMAIL: 'jason@enscribe.dev',
+  TITLE: '0realize',
+  DESCRIPTION: 'my personal blog site lol',
   NUM_POSTS_ON_HOMEPAGE: 2,
-  POSTS_PER_PAGE: 3,
-  SITEURL: 'https://astro-erudite.vercel.app',
+  POSTS_PER_PAGE: 5,
+  SITEURL: 'https://0realize.vercel.app/',
 }
 
 export const NAV_LINKS: Link[] = [
@@ -30,8 +27,5 @@ export const NAV_LINKS: Link[] = [
 ]
 
 export const SOCIAL_LINKS: Link[] = [
-  { href: 'https://github.com/jktrn', label: 'GitHub' },
-  { href: 'https://twitter.com/enscry', label: 'Twitter' },
-  { href: 'jason@enscribe.dev', label: 'Email' },
-  { href: '/rss.xml', label: 'RSS' },
+  { href: 'https://github.com/0realize', label: 'GitHub' },
 ]
