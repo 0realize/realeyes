@@ -1,0 +1,26 @@
+---
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+import Container from '@/components/Container.astro'
+import Layout from '@/layouts/Layout.astro'
+
+const handouts = [
+  { title: "Handout 1", description: "ayayya", href: "https://knzhou.github.io/writing/Advice.pdf" },
+  { title: "Handout 2", description: "yessir", href: "https://knzhou.github.io/writing/Advice.pdf" },
+]
+---
+
+<Layout title="Handouts" description="handouts nigga">
+  <Container class="flex flex-col gap-y-6">
+    <Breadcrumbs items={[{ label: 'Handouts', icon: 'lucide:book-open' }]} />
+    <ul class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+      {handouts.map((handout) => (
+        <li>
+          <a href={handout.href} class="block p-4 rounded-lg border transition-shadow hover:shadow-lg hover:bg-secondary/50">
+            <h2 class="text-lg font-semibold">{handout.title}</h2>
+            <p class="text-sm text-muted-foreground">{handout.description}</p>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </Container>
+</Layout>
