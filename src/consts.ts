@@ -28,5 +28,4 @@ export const NAV_LINKS: Link[] = [
 ]
 
 export const SOCIAL_LINKS: Link[] = [
-  { href: 'https://github.com/0realize', label: 'GitHub' },
 ]
