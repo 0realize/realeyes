@@ -89,6 +89,12 @@
       @apply overflow-x-auto overflow-y-hidden py-4;
     }
 
+    blockquote {
+      @apply border-l-4 pl-4 italic text-muted-foreground bg-secondary/10 my-6;
+      border-color: var(--accent);  /* Optional: Customize the color */
+      font-size: 1.25rem;            /* Optional: Adjust the font size */
+    }
+
     /* Removes background from <mark> elements */
     mark {
       @apply bg-transparent;
