@@ -2,13 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @font-face {
-  font-family: 'Geist Mono';
-  src: url('/fonts/GeistMonoVF.woff2') format('woff2');
+  font-family: 'SF Mono';
+  src: url('/fonts/GSF-Mono-Medium.otf') format('opentype');
   font-weight: 100 900;
   font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Mono';
+  src: url('/fonts/SF-Mono-MediumItalic.otf') format('opentype');
+  font-weight: 100 900;
+  font-style: italic;
   font-display: swap;
 }
 
