@@ -90,9 +90,9 @@
     }
 
     blockquote {
-      @apply border-l-2 pl-6 not-italic text-gray-700 bg-gray-100 my-6;
-      border-color: #3490dc;  /* Adjusted border color */
-      font-size: 1.5rem;       /* Increased font size */
+      @apply border-l-4 pl-4 italic text-gray-800 bg-gray-100 my-6;
+      border-color: #3490dc; /* Adjust border color */
+      font-size: 1.25rem;     /* Adjust font size */
     }
 
     /* Removes background from <mark> elements */
