@@ -89,12 +89,6 @@
       @apply overflow-x-auto overflow-y-hidden py-4;
     }
 
-    blockquote {
-      @apply border-l-4 pl-4 italic text-gray-800 bg-gray-100 my-6;
-      border-color: #3490dc; /* Adjust border color */
-      font-size: 1.25rem;     /* Adjust font size */
-    }
-
     /* Removes background from <mark> elements */
     mark {
       @apply bg-transparent;
