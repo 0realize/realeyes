@@ -7,8 +7,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['GT Walsheim', ...defaultTheme.fontFamily.sans],
-        mono: ['SF Mono', ...defaultTheme.fontFamily.mono],
+        mono: ['Azeret Mono', ...defaultTheme.fontFamily.mono],
       },
       colors: {
         background: 'hsl(var(--background))',
