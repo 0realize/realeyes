@@ -7,7 +7,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-       
+        sans: ['Manrope Variable', ...defaultTheme.fontFamily.sans],
         mono: ['Azeret Mono Variable', ...defaultTheme.fontFamily.mono],
       },
       colors: {
