@@ -76,6 +76,7 @@
   }
 
   html {
+    font-size: 30px;
     color-scheme: light;
     @apply bg-background text-foreground;
 
@@ -92,7 +93,6 @@
   .disable-transitions * {
     @apply !transition-none;
   }
-  font-size: 30px;
 }
 
 @layer components {
