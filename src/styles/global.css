@@ -92,7 +92,7 @@
   .disable-transitions * {
     @apply !transition-none;
   }
-  font-size: 18px;
+  font-size: 30px;
 }
 
 @layer components {
