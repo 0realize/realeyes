@@ -76,7 +76,6 @@
   }
 
   html {
-    font-size: 40px;
     color-scheme: light;
     @apply bg-background text-foreground;
 
